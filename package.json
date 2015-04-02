@@ -1,6 +1,6 @@
 {
   "name": "mongoose_rpc",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A mongoose plugin which enables RPC with tailable querys and capped collections.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,12 @@
     "Communication"
   ],
   "author": "Liam Mitchell",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ], 
   "bugs": {
     "url": "https://github.com/LiamKarlMitchell/mongoose_rpc/issues"
   },
