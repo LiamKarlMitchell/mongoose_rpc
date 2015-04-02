@@ -53,18 +53,18 @@ describe('test', function() {
   	done()
   })
 
-  it('Can save a message', function(done) {
+ //  it('Can save a message', function(done) {
   	
-  	var queueSchema = new Schema({})
-  	queueSchema.plugin(rpcPlugin, { index: true, name: 'Test', fromRegex: '^Test$|^\*$' })
-	var MongooseRPC = mongoose.model('Queue', queueSchema, 'queue', false)
+ //  	var queueSchema = new Schema({})
+ //  	queueSchema.plugin(rpcPlugin, { index: true, name: 'Test', fromRegex: '^Test$|^\*$' })
+	// var MongooseRPC = mongoose.model('Queue', queueSchema, 'queue', false)
 
-	var testRPC = new MongooseRPC({ Fn: 'echo', Args: ['Hello World!'] })
-	testRPC.save(function (err) {
-		done(err);
-	})
+	// var testRPC = new MongooseRPC({ Fn: 'echo', Args: ['Hello World!'] })
+	// testRPC.save(function (err) {
+	// 	done(err);
+	// })
 
-  })
+ //  })
 
 
 });
